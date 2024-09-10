@@ -33,4 +33,5 @@ Docker is a platform that enables developers to package applications into contai
 
 ## Commands to execute run the docker image
 
-- **docker run -d -p 8080:80 your-image-name**
+ ```bash
+   docker run -d -p 8080:80 your-image-name
