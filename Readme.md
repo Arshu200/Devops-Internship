@@ -29,8 +29,7 @@ Docker is a platform that enables developers to package applications into contai
 2. Build a Docker image:
   
    ```bash
-   
-- **docker build -t your-image-name .**
+      docker build -t your-image-name .
 
 ## Commands to execute run the docker image
 
