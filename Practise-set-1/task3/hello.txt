@@ -1,0 +1,1 @@
+Created a Dockerfile that added a local file (hello.txt) to a Docker image and sets a command to print the file contents. ls! HELLO, DOCKER ls!
