@@ -1,6 +1,6 @@
 # DEVOPS Internship
 
-![DevOps Infinity Loop](./Infinity.jpg)
+![DevOps Infinity Loop](./Devopslogo.png)
 
 Welcome to my **DevOps Internship** repository! This repository contains the projects, scripts, and learning materials I've worked on during my internship with CloudifyOps.
 
