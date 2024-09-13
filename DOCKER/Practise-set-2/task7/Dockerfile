@@ -1,0 +1,1 @@
+# Create a Docker container that generates and stores data.Use a named volume to persist the data outside of the container.Test the data persistence by restarting the container and verifying that the data is still available.

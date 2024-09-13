@@ -1,0 +1,1 @@
+# Create a simple Node.js or Python application.Write a Dockerfile that builds an image for the application.Build the image locally.Run the container and ensure the application is accessible.

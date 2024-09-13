@@ -1,0 +1,1 @@
+# Modify your docker-compose.yml file to mount a named volume (app_data) into the nginx container at /usr/share/nginx/html. Ensure that data written inside the container persists across container restarts.

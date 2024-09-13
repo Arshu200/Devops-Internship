@@ -1,0 +1,1 @@
+# Build a Dockerfile using multi-stage builds for a large application with multiple dependencies (e.g., Go, Java, or Node.js).The first stage should include the full build environment, and the second stage should copy only the necessary files to run the application.Build and run the image, and compare its size.

@@ -1,0 +1,1 @@
+# Create a Docker container that runs a web server.Configure port mapping to expose the web server to the host machine.Test the web server by accessing it in a web browser.Experiment with different port mapping configurations.
