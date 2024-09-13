@@ -1,0 +1,1 @@
+# Use Docker commands to remove unused or dangling images from your local Docker installation.
