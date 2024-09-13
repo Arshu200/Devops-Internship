@@ -1,0 +1,25 @@
+# Write a docker-compose.yml file that defines an nginx web server and a mysql database. Set up a volume for persistent storage of the database data.
+
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8080:80" 
+    depends_on:
+      - mysql      
+    volumes:
+      - ./nginx/html:/usr/share/nginx/html  
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: mysecretpassword  
+      MYSQL_DATABASE: my_database            
+      MYSQL_USER: my_user                    
+      MYSQL_PASSWORD: my_user_password       
+    volumes:
+      - db_data:/var/lib/mysql  
+
+volumes:
+  db_data:  

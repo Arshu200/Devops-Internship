@@ -1,0 +1,32 @@
+# Write a simple docker-compose.yml file that defines two services: nginx and redis. Ensure that the nginx container is accessible from the host on port 8080.
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8080:80"   
+    volumes:
+      - app_data:/usr/share/nginx/html  
+    depends_on:
+      - redis       
+
+  redis:
+    image: redis:latest
+
+volumes:
+  app_data:  
+
+
+# Step 1 : docker-compose up -d
+
+# Step 2 : docker-compose exec nginx bash 'echo "Hello, Docker!" > /usr/share/nginx/html/index.html
+
+# Step 3 : docker volume inspect app_data
+
+# Step 4 : docker-compose down (after this) again docker-compose up -d (for test the persistence)
+
+# Step 5 : docker-compose down -v 
+
+
+# Access the webpage from the port 8080

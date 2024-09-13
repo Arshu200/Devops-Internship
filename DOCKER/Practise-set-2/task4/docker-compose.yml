@@ -1,0 +1,13 @@
+# Write a simple docker-compose.yml file that defines two services: nginx and redis. Ensure that the nginx container is accessible from the host on port 8080.
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8080:80"   
+    depends_on:
+      - redis       
+
+  redis:
+    image: redis:latest
